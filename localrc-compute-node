@@ -1,12 +1,12 @@
 ###IP Configuration
-HOST_IP=<<COMPUTE_NODE_IP>> # change this per compute node
+HOST_IP=IP_ADDRESS
 
 #Credentials
-ADMIN_PASSWORD=<<password>>
-MYSQL_PASSWORD=<<password>>
-RABBIT_PASSWORD=<<password>>
-SERVICE_PASSWORD=<<password>>
-SERVICE_TOKEN=<<service_token>>
+ADMIN_PASSWORD=password
+DATABASE_PASSWORD=password
+RABBIT_PASSWORD=password
+SERVICE_PASSWORD=password
+SERVICE_TOKEN=password
 
 #MULTINODE CONFIGURATION
 FLAT_INTERFACE=eth0
