@@ -13,33 +13,24 @@ Prerequisites:
 Steps for DevStack CONTROLLER Node configuration
 ------------------------------------------------
 
-1. Clone devstack from devstack.
+Clone devstack from devstack.
 ```
 $git clone https://github.com/openstack-dev/devstack.git
 ```
-
-2. Clone devstack localrc for devstack controller from devstack-multinode-nova-network
-
+Clone devstack localrc for devstack controller from devstack-multinode-nova-network
 ```
 $git clone https://github.com/svashu/devstack-multinode-nova-network
 ```
-
-3. Copy the localrc from devstack controller to devstack
-
+Copy the localrc from devstack controller to devstack
 ```
 $cp devstack-multinode-nova-network/localrc devstack/localrc
 ```
-
-4. Modify the devstack/localrc for IP and password modifications
-
-5. Add the local.sh file for required modifications default devstack.
-
+Modify the devstack/localrc for IP and password modifications
+Add the local.sh file for required modifications default devstack.
 ```
 $cp devstack-multinode-nova-network/local.sh devstack/
 ```
-
-6. Deploy your Devstack
-
+Deploy your Devstack
 ```
 $cd devstack && ./stack.sh
 ```
@@ -48,28 +39,20 @@ $cd devstack && ./stack.sh
 Steps for DevStack COMPUTE Node configuration
 ---------------------------------------------
 
-1. Clone devstack from devstack.
-
+Clone devstack from devstack.
 ```
 $git clone https://github.com/openstack-dev/devstack.git
 ```
-
-2. Clone devstack localrc for devstack compute from devstack-multinode-nova-network
-
+Clone devstack localrc for devstack compute from devstack-multinode-nova-network
 ```
 $git clone https://github.com/svashu/devstack-multinode-nova-network
 ```
-
-3. Copy the localrc from devstack compute to devstack
-
+Copy the localrc from devstack compute to devstack
 ```
 $cp devstack-multinode-nova-network/localrc-compute-node devstack/localrc
 ```
-
-4. Modify the devstack/localrc for IP and password modifications
-
-5. Deploy your Devstack
-
+Modify the devstack/localrc for IP and password modifications
+Deploy your Devstack
 ```
 $cd devstack && ./stack.sh
 ```
